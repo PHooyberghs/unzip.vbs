@@ -21,7 +21,7 @@ Base_Objects_Initialize
 ' check/create destination folder and subfolders
 checkpath sDestination
 checkpath sDestinationFin
-checkpath sLogPath
+' checkpath sLogPath 'no longer required since sLogPath is no longer used
 checkpath sTmpPath
 
 'initialize/start log
