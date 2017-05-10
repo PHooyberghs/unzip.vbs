@@ -113,7 +113,7 @@ sub Get_Arguments
 	sSourcefile=left(sSourcefile,iSplit-1)
 	if right(sDestination,1)="\" then sDestination=left(sDestination,len(sDestination)-1)
 	sDestinationFin=sDestination & "\" & sSourcefile
-	sLogPath=sDestination & "\log"
+	'sLogPath=sDestination & "\log"
 	sTmpPath=sDestination & "\tmp"
 end sub
 
@@ -128,7 +128,8 @@ end sub
 
 'initialize/start log
 sub Log_Initialize
-	sLogFile=SLogPath &  "\" & sSourcefile &"_vbs_unzip.log"
+	'sLogFile=SLogPath &  "\" & sSourcefile &"_vbs_unzip.log"
+	sLogFile=sDestinationFin &  "\" & sSourcefile &"_vbs_unzip.log"
 	set foLogFile=objFileSystem.CreateTextFile(sLogFile,true)
 	foLogFile.writeline("Logging started")
 end sub
