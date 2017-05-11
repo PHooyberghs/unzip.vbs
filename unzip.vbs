@@ -1,7 +1,11 @@
 option explicit
 
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-' base structure learned from http://www.robvanderwoude.com/vbstech_databases_access.php
+'''Credits''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+' I've learned a lot from scripts by Rob van der Woude
+' Rob van der Woude's Scripting Pages
+' In particular, these pages
+' http://www.robvanderwoude.com/vbstech_databases_access.php
+' http://www.robvanderwoude.com/vbstech_files_zip.php
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 'variable declaration
